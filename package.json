@@ -1,7 +1,7 @@
 {
-  "name": "react-ts-app",
+  "name": "web-app-seed",
   "version": "1.0.0",
-  "description": "```text cypress redux project based on last redux template styled components theme ```",
+  "description": "Web App Seed Project",
   "main": "index.js",
   "directories": {
     "doc": "docs"
