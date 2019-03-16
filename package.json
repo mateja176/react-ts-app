@@ -1,0 +1,15 @@
+{
+  "name": "react-ts-app",
+  "version": "1.0.0",
+  "description": "```text cypress redux project based on last redux template styled components theme ```",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mateja Petrovic <mateja176@gmail.com> (https://github.com/mytee306)",
+  "license": "ISC"
+}
