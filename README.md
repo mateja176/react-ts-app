@@ -1,29 +1,51 @@
 # Notes
 
 ```text
-typescript name spaces
 servicing
-ramda
-formik
-yup
-skeleton loading
-memo
-hooks
-lazy and suspense
-error boundary
-rebass
-material UI
-cypress
-redux project based on last redux template
-styled components theme
 nested folder structure
-react router
-404
-error
+
+npm i react react-dom ramda formik yup
+
+npm i -D typescript eslint prettier nodemon
+
+react
+  react router
+  hooks
+  skeleton loading
+  memo
+  lazy and suspense
+  error boundary
+
+testing
+  jest
+  cypress
+
+styling
+  material UI
+  rebass
+  styled components
+    theme
+
+
+typescript
+  name spaces
+
+ui
+  authentication
+  navigation
+  404
+  error
+
 firebase
-track js
+
 json server
-json schema faker
-auth0
+  json schema faker
+
 segment
+
+track js
+
+ci
+  circle
+
 ```
