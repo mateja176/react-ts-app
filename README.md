@@ -1,12 +1,21 @@
-# Notes
+# React Typescript
+
+## First Step
+
+### Setting up Continuous Integration
+
+- Go to [travis](https://travis-ci.org/account/repositories)
+- Search for the repository and enable CI by toggling the switch
 
 ```text
 servicing
 nested folder structure
 
-npm i react react-dom ramda formik yup
+npm i ramda react react-dom formik yup
 
-npm i -D typescript eslint prettier nodemon
+npm i -D node-sass parcel-bundler typescript jest ts-jest cypress json-server json-schema-faker eslint prettier @types/react @types/react-dom @types/jest @types/ramda @types/formik @types/yup
+
+stylelint
 
 react
   react router
@@ -15,10 +24,6 @@ react
   memo
   lazy and suspense
   error boundary
-
-testing
-  jest
-  cypress
 
 styling
   material UI
@@ -36,16 +41,15 @@ ui
   404
   error
 
-firebase
-
 json server
   json schema faker
+
+firebase
 
 segment
 
 track js
 
-ci
-  circle
+storybook
 
 ```
