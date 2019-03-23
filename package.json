@@ -8,6 +8,7 @@
   },
   "scripts": {
     "test": "jest",
+    "test:coverage": "npm t -- --coverage",
     "cypress:open": "cypress open",
     "lint": "eslint src",
     "start": "parcel src/index.html"
