@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "jest",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "lint": "eslint src",
+    "start": "parcel src/index.html"
   },
   "keywords": [],
   "author": "Mateja Petrovic <mateja176@gmail.com> (https://github.com/mytee306)",
