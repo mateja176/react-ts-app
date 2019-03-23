@@ -1,6 +1,6 @@
 # React Typescript
 
-## First Step
+## First Steps
 
 ### Setting up Continuous Integration
 
@@ -13,7 +13,7 @@ nested folder structure
 
 npm i ramda react react-dom formik yup
 
-npm i -D node-sass parcel-bundler typescript jest ts-jest cypress json-server json-schema-faker prettier eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y @types/react @types/react-dom @types/jest @types/ramda @types/formik @types/yup
+npm i -D node-sass parcel-bundler typescript jest ts-jest cypress json-server json-schema-faker prettier eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y @typescript-eslint/parser @typescript-eslint/eslint-plugin @types/react @types/react-dom @types/jest @types/ramda @types/formik @types/yup tslint tslint-react
 
 stylelint
 
