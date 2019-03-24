@@ -54,17 +54,20 @@ ui
   404
   error
 
-json server
-  json schema faker
-
 firebase
-
-segment
-
-track js
 
 storybook
 
-stylelint
-
 ```
+
+## Honorary Mentions
+
+- [Stylelint](https://stylelint.io/)
+
+- [Track JS](https://trackjs.com/)
+
+- [JSON Server](https://github.com/typicode/json-server)
+
+- [JSON Schema Faker](https://github.com/json-schema-faker/json-schema-faker/)
+
+- [Segment](https://segment.com/)
