@@ -7,16 +7,29 @@
 - Go to [travis](https://travis-ci.org/account/repositories)
 - Search for the repository and enable CI by toggling the switch
 
-```text
-servicing
-nested folder structure
+## Installation from scratch
 
-npm i ramda react react-dom formik yup
+```sh
+npm i ramda react react-dom formik yup redux react-redux
+```
 
+```sh
 npm i -D node-sass parcel-bundler typescript jest ts-jest cypress json-server json-schema-faker prettier eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y @types/react @types/react-dom @types/jest @types/ramda @types/formik @types/yup
+```
 
-stylelint
+## Philosophy
 
+### Servicing
+
+Not giving up control, instead controlling complexity
+
+### Nested folder structure which reflects app architecture
+
+Declarative things are easy to understand
+
+## Notes
+
+```text
 react
   react router
   hooks
@@ -51,5 +64,7 @@ segment
 track js
 
 storybook
+
+stylelint
 
 ```
