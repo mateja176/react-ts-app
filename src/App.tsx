@@ -1,3 +1,12 @@
 import * as React from "react";
+import { Provider } from "react-redux";
+import Form from "./Form";
+import { configureStore } from "./store";
 
-export default () => <h1>Hello World</h1>;
+const store = configureStore();
+
+export default () => (
+  <Provider store={store}>
+    <Form />
+  </Provider>
+);
