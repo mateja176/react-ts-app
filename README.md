@@ -27,7 +27,7 @@ Not giving up control, instead controlling complexity
 
 Declarative things are easy to understand
 
-## Notes
+## TODO
 
 ```text
 react
