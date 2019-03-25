@@ -12,10 +12,15 @@ export const configureStore = () => {
   } else {
     const store = createStore(reducer, composeWithDevTools(middleware));
 
+    // ? state is kept but component gets `disconnected`
     module.hot.accept("./reducer", () => {
-      console.log("replace", store);
-      store.replaceReducer(reducer);
+      const nextRootReducer = require("./reducer/index");
+      store.replaceReducer(nextRootReducer);
     });
+    // * same behavior for
+    // module.hot.accept("./reducer", () => {
+    //   store.replaceReducer(reducer);
+    // });
 
     return store;
   }
