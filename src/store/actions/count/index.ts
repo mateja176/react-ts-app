@@ -1,8 +1,8 @@
 import { Action, ActionWithPayload } from "..";
 
 export const CountActionTypes = {
-  Increment: "[Counter] Increment",
-  DecrementBy: "[Counter] Decrement By Amount",
+  Increment: "[Count] Increment",
+  DecrementBy: "[Count] Decrement By Amount",
 };
 
 export type Increment = Action;
