@@ -17,8 +17,6 @@ export const configureStore = () => {
       store.replaceReducer(reducer);
     });
 
-    console.log("init", store);
-
     return store;
   }
 };
