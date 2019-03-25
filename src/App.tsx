@@ -1,3 +1,8 @@
 import * as React from "react";
+import Form from "./Form";
 
-export default () => <h1>Hello World</h1>;
+export default () => (
+  <div>
+    <Form />
+  </div>
+);
