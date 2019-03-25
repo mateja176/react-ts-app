@@ -18,5 +18,5 @@ const renderApp = () =>
 renderApp();
 
 if (!isProd()) {
-  module.hot.accept("./App", renderApp);
+  module.hot.accept("./App.tsx", renderApp);
 }
