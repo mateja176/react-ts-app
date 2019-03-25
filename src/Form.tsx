@@ -20,7 +20,7 @@ export const Form: React.SFC<FormProps> = ({ count, increment }) => (
         Count:
         <input readOnly value={count} />
       </label>
-      <input type="submit" value="Increment!" />
+      <input type="submit" value="Increment" />
     </fieldset>
   </form>
 );
