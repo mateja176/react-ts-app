@@ -14,7 +14,7 @@ export const configureStore = () => {
 
     // ? state is kept but component gets `disconnected`
     module.hot.accept("./reducer", () => {
-      const nextRootReducer = require("./reducer");
+      const nextRootReducer = require("./reducer").default;
       store.replaceReducer(nextRootReducer);
     });
     // * same behavior for
