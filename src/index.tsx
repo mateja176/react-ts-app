@@ -7,6 +7,10 @@ import { configureStore } from "./store";
 
 const store = configureStore();
 
+(store as any).test = Math.random();
+
+console.log("value changes with every hot reload", (store as any).test);
+
 const renderApp = () =>
   render(
     <Provider store={store}>
